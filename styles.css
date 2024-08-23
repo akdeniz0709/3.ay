@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(135deg, #f2f2f2, #dcdcdc);
+}
+
+header {
+    background: #ff6347; /* Domates rengi */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.photo-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-section img {
+    max-width: 50%;
+    height: auto;
+    border: 5px solid #ff6347; /* Domates rengi kenar */
+    border-radius: 10px;
+}
+
+.photo-section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.text-section {
+    background: #4caf50; /* Yeşil arka plan */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text-section h2 {
+    color: #fff;
+}
+
+.text-section p {
+    font-size: 1.1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 20px;
+    position: fixed;
+    width: 100%;
+	height: 5%;
+    bottom: 0;
+}
